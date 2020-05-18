@@ -1,3 +1,3 @@
-def subtract(x, y):
-    result = x - y
+def subtract(float x, float y):
+    cdef int result = x - y
     return result

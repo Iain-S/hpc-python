@@ -3,6 +3,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
+# Note, I used `snakeviz heat.prof` to visualise the profile and see that most time was spent in evolve()
+
 # Set the colormap
 plt.rcParams['image.cmap'] = 'BrBG'
 

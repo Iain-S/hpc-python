@@ -1,6 +1,7 @@
-from distutils.core import setup, Extension
+from distutils.core import setup
 from Cython.Build import cythonize
 
 setup(
-     ext_modules=cythonize("cyt_module.pyx")
+     # language_level="3"
+     ext_modules=cythonize("cyt_module.pyx", gdb_debug=True)
 )

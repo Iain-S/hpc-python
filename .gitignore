@@ -1,0 +1,7 @@
+*.prof
+*.png
+*.c
+*.so
+__pycache__/
+build/
+cython_debug/
