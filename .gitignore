@@ -2,6 +2,8 @@
 *.png
 *.c
 *.so
+*.o
+*.dat
 __pycache__/
 build/
 cython_debug/

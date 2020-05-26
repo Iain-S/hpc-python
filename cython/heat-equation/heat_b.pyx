@@ -1,3 +1,4 @@
+# cython: profile=True
 import numpy as np
 cimport numpy as cnp
 import matplotlib
@@ -7,6 +8,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 # reminder: use `cython -3 -a heat_b.pyx` to annotate this file
+# reminder: use profile=True at the top to enable profiling with `python -m cProfile -o output.dat heat_main.py`
 
 # Set the colormap
 plt.rcParams['image.cmap'] = 'BrBG'
