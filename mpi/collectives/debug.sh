@@ -1,0 +1,1 @@
+mpiexec -n 4 xterm -e "python -m pdb collective.py"
