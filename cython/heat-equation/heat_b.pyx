@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 # reminder: use `cython -3 -a heat_b.pyx` to annotate this file
 # reminder: use profile=True at the top to enable profiling with `python -m cProfile -o output.dat heat_main.py`
+# reminder: user `python3 setup.py build_ext --inplace` to build the cython lib
 
 # Set the colormap
 plt.rcParams['image.cmap'] = 'BrBG'

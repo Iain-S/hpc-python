@@ -20,8 +20,8 @@ cpdef evolve(cnp.ndarray[cnp.double_t, ndim=2]u,
     cdef int n = u.shape[0]
     cdef int m = u.shape[1]
 
+    # This row makes the difference between 9s and 0.03s
     cdef int i,j
-
 
     for i in range(1, n-1):
         for j in range(1, m-1):
